@@ -12,7 +12,7 @@
 yarn 
 ```
 
-## started
+## Started
 
 ```bash
 yarn dev 

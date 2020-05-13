@@ -41,7 +41,7 @@
   main {
     text-align: center;
     padding: 1em;
-    max-width: 240px;
+    max-width: 320px;
     margin: 0 auto;
   }
 
@@ -60,7 +60,7 @@
 
   @media (min-width: 640px) {
     main {
-      max-width: none;
+      /* max-width: none; */
     }
   }
 </style>
@@ -104,7 +104,7 @@
       {/each}
     {/if}
   </section>
-  <section>
+  <section class="card-wrap">
     <h2>书单</h2>
     {#each books as { title, price, description }}
       <BookCard {title} {price} {description} {handleAddToCart} />
