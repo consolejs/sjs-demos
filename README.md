@@ -1,6 +1,12 @@
 
 # Sveltejs Bookshop
 
+
+
+[demo预览](http://htmlpreview.github.io/?https://github.com/consolejs/sjs-bookshop/blob/master/public/index.html)
+
+<br />
+
 ## Install
 
 ```bash
