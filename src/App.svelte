@@ -1,9 +1,18 @@
 <script>
-  import BookStore from "./bookstore/index.svelte";
+  // import BookStore from "./bookstore/index.svelte";
+
+  import { Router } from 'svelte-router-spa'
+  import { routes } from './routes'
 </script>
 
 <style>
  
 </style>
 
-<BookStore />
+
+<Router {routes } />
+
+
+ 
+
+<!-- <BookStore /> -->

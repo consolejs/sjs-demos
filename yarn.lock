@@ -461,6 +461,13 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+svelte-router-spa@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/svelte-router-spa/-/svelte-router-spa-5.6.0.tgz#ccc156751797b0838fb79c0cdd1494e5a9fe3c47"
+  integrity sha512-7WWGHs7CNAZN6c4KnKC1Leg2PMu/XNJ3zhwcx9cbwO9Hg86+dipM9qJRdGnkqk/Nflpay1pa94omh6+7BISYSg==
+  dependencies:
+    url-params-parser "^1.0.2"
+
 svelte@^3.0.0:
   version "3.22.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.22.2.tgz#06585244191bf7a112af2a0025610f33d77c3715"
@@ -486,6 +493,11 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
+
+url-params-parser@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/url-params-parser/-/url-params-parser-1.0.2.tgz#2076afda890c804c692152d6b42e07f4ba1049fc"
+  integrity sha512-0jXbXQBZlyQxIF/kwZ4nu5sOU+jNioXRXlxLgyT+XxG9mQ4nLmxV8zBaR/66bmH0zDIO9cWazK33MTHBIGQwMg==
 
 ws@^6.2.1:
   version "6.2.1"
