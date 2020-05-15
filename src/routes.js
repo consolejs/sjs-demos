@@ -11,29 +11,33 @@ function userIsAdmin() {
 
 
 
-
-const routes = [
-  {
+const routes = [{
     name: '/',
     component: PublicIndex,
   },
-  { name: 'book', component: Bookstore, layout: '' }
-//   {
-//     name: 'admin',
-//     component: AdminLayout,
-//     onlyIf: { guard: userIsAdmin, redirect: '/login' },
-//     nestedRoutes: [
-//       { name: 'index', component: AdminIndex },
-//       {
-//         name: 'employees',
-//         component: '',
-//         nestedRoutes: [
-//           { name: 'index', component: EmployeesIndex },
-//           { name: 'show/:id', component: EmployeesShow },
-//         ],
-//       },
-//     ],
-//   },
+  {
+    name: 'book',
+    component: Bookstore,
+    layout: ''
+  }
+  //   {
+  //     name: 'admin',
+  //     component: AdminLayout,
+  //     onlyIf: { guard: userIsAdmin, redirect: '/login' },
+  //     nestedRoutes: [
+  //       { name: 'index', component: AdminIndex },
+  //       {
+  //         name: 'employees',
+  //         component: '',
+  //         nestedRoutes: [
+  //           { name: 'index', component: EmployeesIndex },
+  //           { name: 'show/:id', component: EmployeesShow },
+  //         ],
+  //       },
+  //     ],
+  //   },
 ]
 
-export { routes }
+export {
+  routes
+}
