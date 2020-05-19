@@ -2,6 +2,7 @@
 import PublicIndex from './index.svelte'
 // import PublicLayout from './index.svelte'
 import Bookstore from './bookstore/index.svelte'
+import ExampleA from './example/index.svelte'
 // import AdminIndex from './views/admin/index.svelte'
 // import EmployeesIndex from './views/admin/employees/index.svelte'
 
@@ -16,8 +17,18 @@ const routes = [{
     component: PublicIndex,
   },
   {
+    name: '404',
+    path: '404',
+    component: PublicIndex
+  },
+  {
     name: 'book',
     component: Bookstore,
+    layout: ''
+  },
+  {
+    name: 'ex_a',
+    component: ExampleA,
     layout: ''
   }
   //   {

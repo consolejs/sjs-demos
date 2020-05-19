@@ -1,5 +1,5 @@
 <script>
-  //   export let name, symbol;
+  import Head from "../components/Head.svelte";
   import BookCard from "./BookCard.svelte";
 
   let title = "";
@@ -55,32 +55,13 @@
     font-size: 4em;
     font-weight: 100;
   }
-  
-  /* .para {
-    color: green;
-  }
-  .zara {
-    color: goldenrod;
-  } */
 
-  @media (min-width: 640px) {
-    main {
-      /* max-width: none; */
-    }
-  }
 </style>
 
+
+<Head />
+
 <div class="bookstore">
-  <!-- 
-	<h1>Hello {name} ！</h1>
-	<p>
-		Visit the
-		<a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-		to learn how to build Svelte apps.
-	</p>
-	<div class="para">xxxxxx</div>
-	<div class="zara">yyyyy</div> 
-	-->
 
   <h1>Bookstore</h1>
   <section>
