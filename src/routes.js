@@ -16,11 +16,11 @@ const routes = [{
     name: pathname + '/',
     component: PublicIndex,
   },
-  {
-    name: '404',
-    path: '404',
-    component: PublicIndex
-  },
+  // {
+  //   name: '404',
+  //   path: '404',
+  //   component: PublicIndex
+  // },
   {
     name: pathname + 'book',
     component: Bookstore,
