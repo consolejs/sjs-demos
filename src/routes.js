@@ -10,10 +10,10 @@ function userIsAdmin() {
   //check if user is admin and returns true or false
 }
 
-
+const pathname =  window.location.host.indexOf('consolejs.cn') > -1 ? "/sjs-demos/" : "";
 
 const routes = [{
-    name: '/',
+    name: pathname + '/',
     component: PublicIndex,
   },
   {
@@ -22,12 +22,12 @@ const routes = [{
     component: PublicIndex
   },
   {
-    name: 'book',
+    name: pathname + 'book',
     component: Bookstore,
     layout: ''
   },
   {
-    name: 'ex_a',
+    name: pathname + 'ex_a',
     component: ExampleA,
     layout: ''
   }
