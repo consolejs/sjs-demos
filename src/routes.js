@@ -13,14 +13,14 @@ function userIsAdmin() {
 const pathname =  window.location.host.indexOf('consolejs.cn') > -1 ? "/sjs-demos/" : "";
 
 const routes = [{
-    name: pathname + '/',
+    name: pathname,
     component: PublicIndex,
   },
-  // {
-  //   name: '404',
-  //   path: '404',
-  //   component: PublicIndex
-  // },
+  {
+    name: '404',
+    path: '404',
+    component: PublicIndex
+  },
   {
     name: pathname + 'book',
     component: Bookstore,
