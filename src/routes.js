@@ -9,7 +9,7 @@ import ExampleA from './example/index.svelte'
 function userIsAdmin() {
   //check if user is admin and returns true or false
 }
-
+ // 
 
 const  pathname = window.location.host.indexOf('consolejs') > -1 ? "/sjs-demos/" : ""; 
 
@@ -18,7 +18,7 @@ console.log(1111, pathname);
 
 
 const routes = [{
-    name: '/',
+    name: '/sjs-demos/',
     component: PublicIndex,
   },
   {
@@ -27,12 +27,12 @@ const routes = [{
     component: Public404
   },
   {
-    name: 'book',
+    name: '/sjs-demos/book',
     component: Bookstore,
     layout: ''
   },
   {
-    name: 'ex_a',
+    name: '/sjs-demos/ex_a',
     component: ExampleA,
     layout: ''
   }

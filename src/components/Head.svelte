@@ -11,5 +11,5 @@
 </style>
 
 <div class="home">
-  <a href="/">Home</a>
+  <a href="/sjs-demos/">Home</a>
 </div>

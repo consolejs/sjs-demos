@@ -16,10 +16,10 @@
 <h3>Demo</h3>
 <ul class="list">
   <li>
-    <a href="/book">bookstore</a>
+    <a href="/sjs-demos/book">bookstore</a>
   </li>
   <li>
-    <a href="/ex_a">example A</a>
+    <a href="/sjs-demos/ex_a">example A</a>
   </li>
 </ul>
 

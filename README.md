@@ -1,5 +1,5 @@
 
-# Sveltejs Bookshop
+# Sveltejs Demos
 
 
 
@@ -24,14 +24,14 @@ yarn dev
 yarn build
 ```
 
-## 功能：
+<!-- ## 功能：
 
 >  Bookshop 支持以下:
 
 * 管理员录入新图书
 * 展示书店图书列表
 * 将图书加到购物车
-* 展示购物车的数据信息
+* 展示购物车的数据信息 -->
 
     
 ### Demo涉及特性
