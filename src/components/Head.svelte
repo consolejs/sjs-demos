@@ -1,3 +1,6 @@
+<script>
+  import { onlinePath } from "../libs/some";
+</script>
 <style>
   .home {
     height: 42px;
@@ -11,5 +14,5 @@
 </style>
 
 <div class="home">
-  <a href="/sjs-demos/">Home</a>
+  <a href="{onlinePath}/">Home</a>
 </div>

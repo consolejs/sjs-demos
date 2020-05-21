@@ -1,7 +1,7 @@
 <script>
   import { Route } from "svelte-router-spa";
   export let currentRoute;
-  //   const params = {};
+  import { onlinePath } from "./libs/some";
 </script>
 
 <style>
@@ -16,10 +16,10 @@
 <h3>Demo</h3>
 <ul class="list">
   <li>
-    <a href="/sjs-demos/book">bookstore</a>
+    <a href="{onlinePath}/book">bookstore</a>
   </li>
   <li>
-    <a href="/sjs-demos/ex_a">example A</a>
+    <a href="{onlinePath}/ex_a">example A</a>
   </li>
 </ul>
 

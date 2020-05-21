@@ -6,19 +6,14 @@ import ExampleA from './example/index.svelte'
 // import AdminIndex from './views/admin/index.svelte'
 // import EmployeesIndex from './views/admin/employees/index.svelte'
 
+import { onlinePath } from "./libs/some";
+
 function userIsAdmin() {
   //check if user is admin and returns true or false
 }
- // 
-
-const  pathname = window.location.host.indexOf('consolejs') > -1 ? "/sjs-demos/" : ""; 
-
-console.log(1111, pathname);
-  
-
 
 const routes = [{
-    name: '/sjs-demos/',
+    name: onlinePath + '/',
     component: PublicIndex,
   },
   {
@@ -27,12 +22,12 @@ const routes = [{
     component: Public404
   },
   {
-    name: '/sjs-demos/book',
+    name: onlinePath + '/book',
     component: Bookstore,
     layout: ''
   },
   {
-    name: '/sjs-demos/ex_a',
+    name: onlinePath + '/ex_a',
     component: ExampleA,
     layout: ''
   }
