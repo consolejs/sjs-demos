@@ -2,9 +2,7 @@
 # Sveltejs Demos
 
 
-
-[DEMO 预览](http://htmlpreview.github.io/?https://github.com/consolejs/sjs-bookshop/blob/master/public/index.html)
-
+[DEMO 预览](http://consolejs.cn/sjs-demos)
 
 ## Install
 
