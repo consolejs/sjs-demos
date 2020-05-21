@@ -1,6 +1,6 @@
 // import Login from './views/public/login.svelte'
 import PublicIndex from './index.svelte'
-// import PublicLayout from './index.svelte'
+import Public404 from './components/404.svelte'
 import Bookstore from './bookstore/index.svelte'
 import ExampleA from './example/index.svelte'
 // import AdminIndex from './views/admin/index.svelte'
@@ -11,6 +11,11 @@ function userIsAdmin() {
 }
 
 
+const  pathname = window.location.host.indexOf('consolejs') > -1 ? "/sjs-demos/" : ""; 
+
+console.log(1111, pathname);
+  
+
 
 const routes = [{
     name: '/',
@@ -19,7 +24,7 @@ const routes = [{
   {
     name: '404',
     path: '404',
-    component: PublicIndex
+    component: Public404
   },
   {
     name: 'book',
