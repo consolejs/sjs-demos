@@ -15,6 +15,16 @@ function userIsAdmin() {
 const routes = [{
     name: onlinePath + '/',
     component: PublicIndex,
+    // nestedRoutes: [
+    //   {
+    //     name: '/book',
+    //     component: 'Bookstore',
+    //   },
+    //   {
+    //     name: '/ex_a',
+    //     component: 'ExampleA',
+    //   }
+    // ],
   },
   {
     name: '404',
@@ -31,22 +41,6 @@ const routes = [{
     component: ExampleA,
     layout: ''
   }
-  //   {
-  //     name: 'admin',
-  //     component: AdminLayout,
-  //     onlyIf: { guard: userIsAdmin, redirect: '/login' },
-  //     nestedRoutes: [
-  //       { name: 'index', component: AdminIndex },
-  //       {
-  //         name: 'employees',
-  //         component: '',
-  //         nestedRoutes: [
-  //           { name: 'index', component: EmployeesIndex },
-  //           { name: 'show/:id', component: EmployeesShow },
-  //         ],
-  //       },
-  //     ],
-  //   },
 ]
 
 export {
